@@ -7,7 +7,7 @@ In this work, a new task video instance segmentation is presented. Video instanc
 We also proposed an algorithm to jointly detect, segment, and track object instances in a video, named MaskTrackRCNN.  A tracking head is added to the original MaskRCNN model to match objects across frames.
 ## Installation
 This repo is built based on [mmdetection](https://github.com/open-mmlab/mmdetection) commit hash `f3a939f`. Please refer to [INSTALL.md](INSTALL.md) to install the library.
-You also need to install a customized [COCO API](https://github.com/youtubevos/cocoapi) for YouTubeVIS dataset.
+You also need to install a customized [COCO API](https://github.com/youtubevos/cocoapi) for dataset.
 You can use following commands to create conda env with all dependencies.
 ```
 conda create -n MaskTrackRCNN -y
