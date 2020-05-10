@@ -38,8 +38,7 @@ mmdetection
 │   │   ├── instances_val_sub.json
 ```
 
-3. Run `python3 tools/train.py configs/masktrack_rcnn_r50_fpn_1x_youtubevos.py` to train the model.
-For reference to arguments such as learning rate and model parameters, please refer to `configs/masktrack_rcnn_r50_fpn_1x_youtubevos.py`
+3. run main.ipynb to tran the model. 
 
 ### Evaluation
 
