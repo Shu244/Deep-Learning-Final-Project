@@ -21,10 +21,9 @@ pip install .
 ```
 You may also need to follow [#1](/../../issues/1) to load MSCOCO pretrained models.
 ## Model training and evaluation
-Our model is based on MaskRCNN-resnet50-FPN. The model is trained end-to-end on YouTubeVIS based on a MSCOCO pretrained checkpoint ([link](https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/mask_rcnn_r50_fpn_1x_20181010-069fa190.pth)).
+Our model is based on MaskRCNN-resnet101-FPN. The model is trained end-to-end on our dataset based on a MSCOCO pretrained checkpoint.
 ### Training
-1. Download YouTubeVIS from [here](https://youtube-vos.org/dataset/vis/).
-2. Symlink the train/validation dataset to `$MMDETECTION/data` folder. Put COCO-style annotations under `$MMDETECTION/data/annotations`.
+1. Symlink the train/validation dataset to `$MMDETECTION/data` folder. Put COCO-style annotations under `$MMDETECTION/data/annotations`.
 ```
 mmdetection
 ├── mmdet
@@ -38,7 +37,7 @@ mmdetection
 │   │   ├── instances_val_sub.json
 ```
 
-3. run main.ipynb to tran the model. 
+2. run main.ipynb to tran the model. 
 
 ### Evaluation
 
